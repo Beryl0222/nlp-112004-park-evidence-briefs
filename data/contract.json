@@ -1,0 +1,84 @@
+{
+  "plots": {
+    "columns": {
+      "id": "string",
+      "label": "string",
+      "parent": "string?",
+      "includes": "array",
+      "codes": "array"
+    },
+    "links": {
+      "parent": "plots",
+      "includes": "plots"
+    }
+  },
+  "methods": {
+    "columns": {
+      "id": "string",
+      "label": "string",
+      "targets": "array",
+      "months": "array",
+      "window": "string",
+      "completedMin": "integer",
+      "note": "string"
+    },
+    "links": {}
+  },
+  "surveys": {
+    "columns": {
+      "id": "string",
+      "team": "string",
+      "date": "string",
+      "slot": "string",
+      "planned": "array",
+      "registeredMethod": "string"
+    },
+    "links": {
+      "planned": "plots",
+      "registeredMethod": "methods"
+    }
+  },
+  "notes": {
+    "columns": {
+      "id": "string",
+      "survey": "string",
+      "loggedAt": "string",
+      "refs": "array",
+      "previous": "string?",
+      "note": "string"
+    },
+    "links": {
+      "survey": "surveys",
+      "refs": "notes",
+      "previous": "notes"
+    }
+  },
+  "bookings": {
+    "columns": {
+      "id": "string",
+      "team": "string",
+      "window": "string",
+      "state": "string",
+      "capacity": "integer",
+      "plots": "array",
+      "targets": "array"
+    },
+    "links": {
+      "plots": "plots"
+    }
+  },
+  "hearing": {
+    "columns": {
+      "id": "string",
+      "scope": "string",
+      "publishedAt": "string?",
+      "status": "string",
+      "sentence": "string",
+      "references": "array"
+    },
+    "links": {
+      "scope": "plots",
+      "references": "notes"
+    }
+  }
+}

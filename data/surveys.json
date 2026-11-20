@@ -1,0 +1,88 @@
+[
+  {
+    "id": "u1",
+    "team": "帆叶",
+    "date": "2026-04-12",
+    "slot": "05:40",
+    "planned": [
+      "N",
+      "G"
+    ],
+    "registeredMethod": "M1"
+  },
+  {
+    "id": "u2",
+    "team": "桦径",
+    "date": "2026-04-18",
+    "slot": "06:10",
+    "planned": [
+      "N"
+    ],
+    "registeredMethod": "M1"
+  },
+  {
+    "id": "u3",
+    "team": "帆叶",
+    "date": "2026-05-04",
+    "slot": "06:08",
+    "planned": [
+      "G"
+    ],
+    "registeredMethod": "M1"
+  },
+  {
+    "id": "u4",
+    "team": "潮草",
+    "date": "2025-10-12",
+    "slot": "09:20",
+    "planned": [
+      "G",
+      "S"
+    ],
+    "registeredMethod": "M3"
+  },
+  {
+    "id": "u5",
+    "team": "潮草",
+    "date": "2026-05-15",
+    "slot": "09:25",
+    "planned": [
+      "G",
+      "S"
+    ],
+    "registeredMethod": "M3"
+  },
+  {
+    "id": "u6",
+    "team": "桦径",
+    "date": "2026-05-16",
+    "slot": "06:12",
+    "planned": [
+      "G",
+      "N"
+    ],
+    "registeredMethod": "M1"
+  },
+  {
+    "id": "u7",
+    "team": "帆叶",
+    "date": "2026-05-17",
+    "slot": "06:05",
+    "planned": [
+      "G",
+      "N"
+    ],
+    "registeredMethod": "M1"
+  },
+  {
+    "id": "u8",
+    "team": "桦径",
+    "date": "2026-05-17",
+    "slot": "06:15",
+    "planned": [
+      "E1",
+      "E2"
+    ],
+    "registeredMethod": "M1"
+  }
+]

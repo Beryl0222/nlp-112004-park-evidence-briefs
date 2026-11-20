@@ -1,0 +1,78 @@
+[
+  {
+    "id": "P",
+    "label": "青砾片",
+    "parent": null,
+    "includes": [
+      "N",
+      "G",
+      "S"
+    ],
+    "codes": [
+      "整片"
+    ]
+  },
+  {
+    "id": "N",
+    "label": "背阴坡",
+    "parent": "P",
+    "includes": [],
+    "codes": [
+      "阴坡",
+      "西埂",
+      "老坡"
+    ]
+  },
+  {
+    "id": "G",
+    "label": "沟口",
+    "parent": "P",
+    "includes": [],
+    "codes": [
+      "小口",
+      "西埂"
+    ]
+  },
+  {
+    "id": "S",
+    "label": "浅湖",
+    "parent": "P",
+    "includes": [],
+    "codes": [
+      "水洼",
+      "涝池"
+    ]
+  },
+  {
+    "id": "E",
+    "label": "石湾片",
+    "parent": null,
+    "includes": [
+      "E1",
+      "E2"
+    ],
+    "codes": [
+      "石湾"
+    ]
+  },
+  {
+    "id": "E1",
+    "label": "白石塘",
+    "parent": "E",
+    "includes": [],
+    "codes": [
+      "老坡",
+      "白塘"
+    ]
+  },
+  {
+    "id": "E2",
+    "label": "北草甸",
+    "parent": "E",
+    "includes": [],
+    "codes": [
+      "北草",
+      "草坪"
+    ]
+  }
+]

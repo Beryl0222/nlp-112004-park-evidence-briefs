@@ -1,0 +1,37 @@
+[
+  {
+    "id": "h1",
+    "scope": "G",
+    "publishedAt": "2026-05-18",
+    "status": "公布",
+    "sentence": "青鸣鸟今年五月的沟口调查尚未结束。",
+    "references": [
+      "n3",
+      "n7"
+    ]
+  },
+  {
+    "id": "h2",
+    "scope": "P",
+    "publishedAt": null,
+    "status": "送审",
+    "sentence": "青砾片今年暂未见青鸣鸟，部分路线未到。",
+    "references": [
+      "n1",
+      "n2",
+      "n3",
+      "n6",
+      "n7"
+    ]
+  },
+  {
+    "id": "h3",
+    "scope": "S",
+    "publishedAt": "2026-05-18",
+    "status": "公布",
+    "sentence": "上一秋季曾有一尾苇鳞鱼，不能代表今年。",
+    "references": [
+      "n4"
+    ]
+  }
+]
