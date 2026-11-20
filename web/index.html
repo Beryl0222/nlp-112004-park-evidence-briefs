@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>生态论证简报 · 证据与补查工作台</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>生态论证简报工作台</h1>
+    <p class="subtitle">观察、未观察、推测、征引与纠正各自保留证据强度；缺席陈述不等于物种不存在。</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="briefing">可发布简报</button>
+    <button class="tab" data-tab="ledger">证据台账</button>
+    <button class="tab" data-tab="hearing">会审与更正</button>
+    <button class="tab" data-tab="gaps">补查清单</button>
+    <button class="tab" data-tab="pending">地点待核</button>
+    <button class="tab" data-tab="warnings">解析提示</button>
+  </nav>
+
+  <main>
+    <section id="tab-briefing" class="panel active"></section>
+    <section id="tab-ledger" class="panel"></section>
+    <section id="tab-hearing" class="panel"></section>
+    <section id="tab-gaps" class="panel"></section>
+    <section id="tab-pending" class="panel"></section>
+    <section id="tab-warnings" class="panel"></section>
+  </main>
+
+  <div id="drawer" class="drawer hidden" aria-live="polite">
+    <div class="drawer-head">
+      <h2 id="drawer-title">结论溯源</h2>
+      <button id="drawer-close">关闭</button>
+    </div>
+    <div id="drawer-body"></div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

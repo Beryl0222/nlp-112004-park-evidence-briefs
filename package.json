@@ -8,6 +8,8 @@
   },
   "scripts": {
     "test": "node --test",
-    "check-data": "node tools/check-data.mjs"
+    "check-data": "node tools/check-data.mjs",
+    "report": "node tools/report.mjs",
+    "serve": "node src/server.mjs"
   }
 }
